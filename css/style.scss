@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif ;
 }
 
+button{
+    cursor: pointer;
+}
+
 @media screen and (min-width:993px){
    
     
@@ -259,19 +263,217 @@
         justify-content: center;
     }
     
+    // FIN SECCION COMPRAS
+
+    .cont-section-hamburguesas-especiales{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+
+    .seccion-hamburguesas-especiales{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        
+        div{
+            display: flex;
+            
+            .hamburguesa-especial{
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
+                align-items: flex-start;
+                width: 50%;
+                height: 100%;
+                margin-left: 5%;
+                padding-bottom: 5%;
+                
+
+                h4{
+                    font-size: 38px;
+                    color: #fff;
+                }
+
+                button{
+                    padding: 5px 15px 5px 15px;
+                    border-radius: 10px;
+                    border: none;
+                    background-color: #700033;
+                    color: #fff;
+                    font-size: 16px;
+                }
+
+            }
+
+            img{
+                width: 100%;
+                align-self: flex-end;
+            }
+        }
+    }
+
+    .chicha-burguer{
+        background-color:#FA5454 ;
+        width: 33%;
+    }
+
+    .friend-burguer{
+        background-color: #FAFF00;
+        width: 33%;
+    }
+
+    .grill-burguer{
+        background-color: #F69752;
+        width: 34%;
+    }
+
+    .cont-mitad-burguer{
+        width: 50%;
+        display: flex;
+        justify-content: end;
+    }
+
+     
+    .titulo-social{
+        h3{
+            text-align: center;
+            font-size: 4vw;
+            font-weight: 600;
+            color: rgb(99, 99, 99);
 
 
+            a{
+                color: #700033;
+            }
+        }
+
+        p{
+            text-align: center;
+            color: #bebebe;
+            font-weight: 600;
+            font-size: 1.5vw;
+        }
+    }
 
 
+    .contenedor-social{
+        display: flex;
+        
+    }
+
+    .cont-social-png{
+        width: 10%;
+    }
+
+    .cont-img-social{
+        display: flex;
+        width: 80%;
+        justify-content: space-evenly;
+        align-items: center;
+
+        div{
+            width: 30%;
+            height: 30vh;
+            
+        }
+
+        .img-social1{
+            width: 100%;
+        }
+
+        .img-social2{
+            width: 100%;
+        }
+
+        .img-social3{
+            width: 100%;
+        }
+    }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cont-listas{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #700033;
+
+    .cont-img-footer{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 
 
+        img{
+            width: 30%;
+        }
 
+        p{
+            color: #bebebe;
+        }
+    }    
+}
 
+.service{
+    span{
+        font-size: 20px;
+        font-weight: 600;
+        color: #bebebe;
+    }
 
+    ul{
+        li{
+            list-style: none;
 
+            a{
+                text-decoration: none;
+                color: #bebebe;
+            }
+        }
+    }
+        
+    
+}
 
+.company{
+    span{
+        font-size: 20px;
+        font-weight: 600;
+        color: #bebebe;
+    }
 
+    ul{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        li{
+            list-style: none;
 
+            a{
+                text-decoration: none;
+                color: #bebebe;
+            }
+        }
+    }
+}
+
+.copyright{
+    background-color: #700033;
+    width: 100%;
+
+    p{
+        text-align: center;
+        padding: 20px;
+    }
+}
 
 
 }
