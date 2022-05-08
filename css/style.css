@@ -1,3 +1,227 @@
+@media screen and (max-width: 576px) {
+  img {
+    width: 100px;
+  }
+  .cont-numero {
+    width: 0%;
+  }
+  .cont-numero p {
+    font-size: 0px;
+  }
+  .cont-numero img {
+    width: 0px;
+  }
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #700033;
+  }
+  nav .cont-logo {
+    width: 20%;
+  }
+  nav .cont-logo img {
+    width: 100%;
+    padding: 5%;
+  }
+  nav .cont-ul-nav {
+    width: 80%;
+  }
+  nav .cont-ul-nav ul {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+  }
+  nav .cont-ul-nav ul li {
+    list-style: none;
+  }
+  nav .cont-ul-nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 3vw;
+    font-weight: 600;
+  }
+  nav .cont-ul-nav ul li .enrojo {
+    text-decoration: none;
+    color: #ff9d77;
+    font-size: 3vw;
+    font-weight: 600;
+  }
+  .cont-2daSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .cont-sassy {
+    width: 0%;
+  }
+  .cont-sassy h3 {
+    font-size: 0px;
+  }
+  .cont-sassy p {
+    font-size: 0px;
+  }
+  .cont-BURGUERS {
+    width: 0%;
+  }
+  .cont-BURGUERS img {
+    width: 0px;
+  }
+  .cont-singlePatty {
+    padding-left: 5%;
+    height: 50vh;
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .cont-singlePatty h2 {
+    font-size: 10vw;
+    color: rgba(110, 110, 110, 0.737);
+  }
+  .cont-singlePatty p {
+    font-size: 3vw;
+    font-weight: 600;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .cont-singlePatty button {
+    padding: 2px 10px 2px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #700033;
+    color: #fff;
+    font-size: 4vw;
+    cursor: pointer;
+  }
+  .second-section {
+    background-color: #e2e2e2;
+  }
+  .cont-hamburguesaMitad {
+    width: 60%;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cont-hamburguesaMitad img {
+    width: 100%;
+  }
+  .titulo-our p {
+    text-align: center;
+    font-size: 7vw;
+    font-family: 'Indie Flower', cursive;
+    color: #700033;
+  }
+  .titulo-our h4 {
+    text-align: center;
+    font-size: 9vw;
+    color: #929292;
+  }
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 8px;
+    margin: 10% 10%;
+    -webkit-box-shadow: 0px 0px 10px 0px;
+            box-shadow: 0px 0px 10px 0px;
+    background-color: #f7f7f7;
+  }
+  .card p {
+    text-align: center;
+    padding: 5% 15%;
+    font-weight: 600;
+  }
+  .card h4 {
+    font-size: 6vw;
+  }
+  .card img {
+    width: 50%;
+    padding-top: 5%;
+  }
+  .card div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 5%;
+  }
+  .card div img {
+    width: 20%;
+  }
+  .card div button {
+    padding: 2px 10px 2px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #700033;
+    color: #fff;
+    font-size: 4vw;
+    cursor: pointer;
+  }
+  .card-desaparecida {
+    width: 0%;
+  }
+  .card-desaparecida img {
+    width: 0%;
+  }
+  .card-desaparecida h4 {
+    font-size: 0%;
+  }
+  .card-desaparecida p {
+    font-size: 0%;
+  }
+  .card-desaparecida div img {
+    width: 0%;
+  }
+  .card-desaparecida div button {
+    width: 0%;
+    font-size: 0px;
+    padding: 0px;
+  }
+  .Imgmenu img {
+    width: 0px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;

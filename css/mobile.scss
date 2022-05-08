@@ -1,0 +1,412 @@
+@media screen and (max-width:576px){
+
+    img{
+        width: 100px;
+    }
+    
+    .cont-numero{
+        width: 0%;
+        p{
+            font-size: 0px;
+        }
+
+        img{
+            width: 0px;
+        }
+    }
+
+    nav{
+        display: flex;
+        background-color: #700033;
+
+        .cont-logo{
+            width: 20%;
+            
+            img{
+                width: 100%;
+                padding: 5%;
+            }
+        }
+
+        .cont-ul-nav{
+
+            width: 80%;
+            ul{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 100%;
+
+                li{
+                    list-style: none;
+
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        font-size: 3vw;
+                        font-weight: 600;
+                    }
+
+                    .enrojo{
+                        text-decoration: none;
+                        color: #ff9d77;
+                        font-size: 3vw;
+                        font-weight: 600;
+                    }
+
+
+                }
+            }
+        }
+
+
+    }
+
+    .cont-2daSection{
+        display: flex;
+    }
+    
+    .cont-sassy{
+        width: 0%;
+        h3{
+            font-size: 0px;
+        }
+
+        p{
+            font-size: 0px;
+        }
+    }
+
+    .cont-BURGUERS{
+        width: 0%;
+        img{
+            width: 0px;
+        }
+    }
+
+    .cont-singlePatty{
+        padding-left: 5%;
+        height: 50vh;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        h2{
+            font-size: 10vw;
+            color: rgba(110, 110, 110, 0.737);
+        }
+        
+        p{
+            font-size: 3vw;
+            font-weight: 600;
+            margin-bottom: 5%;
+            margin-top: 5%;
+        }
+
+        button{
+            padding: 2px 10px 2px 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: #700033;
+            color: #fff;
+            font-size: 4vw;
+            cursor: pointer;
+        }
+    }
+
+
+
+    .second-section{
+        background-color: #e2e2e2;
+    }
+
+
+.cont-hamburguesaMitad{
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 100%;
+    }
+}
+
+
+.titulo-our{
+    p{
+        text-align: center;
+        font-size: 7vw;
+        font-family: 'Indie Flower', cursive;
+        color: #700033;
+    }
+
+    h4{
+        text-align: center;
+        font-size: 9vw;
+        color: #929292;
+    }
+}
+
+
+
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 10% 10%;
+    box-shadow: 0px 0px 10px 0px;
+    background-color: rgb(247, 247, 247);
+
+    p{
+        text-align: center;
+        padding: 5% 15%;
+        font-weight: 600;
+    }
+
+    h4{
+        font-size: 6vw;
+    }
+
+    img{
+        width: 50%;
+        padding-top: 5%;
+    }
+
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        padding-bottom: 5%;
+
+        img{
+            width: 20%;
+        }
+
+        button{
+            padding: 2px 10px 2px 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: #700033;
+            color: #fff;
+            font-size: 4vw;
+            cursor: pointer;
+        }
+    }
+}
+
+.card-desaparecida{
+    width: 0%;
+
+    img{
+        width: 0%;
+    }
+
+    h4{
+        font-size: 0%;
+    }
+
+    p{
+        font-size: 0%;
+    }
+
+    div{
+        img{
+            width: 0%;
+        }
+
+        button{
+            width: 0%;
+            font-size: 0px;
+            padding: 0px;
+        }
+    }
+}
+
+.Imgmenu{
+    width: 0px;
+    visibility: hidden;
+
+    img{
+        width: 0px;
+    }
+}
+
+.cont-mitad-burguer{
+    img{
+        width: 0px;
+    }
+}
+
+.seccion-hamburguesas-especiales{
+    width: 0px;
+    height: 0px;
+}
+
+.hamburguesa-especial{
+    visibility: hidden;
+    width: 0px;
+    h4{
+        font-size: 0px;
+    }
+
+    button{
+        padding: 0px;
+        font-size: 0px;
+    }
+}
+
+.chicha-burguer{
+    width: 0px;
+}
+
+.friend-burguer{
+    width: 0px;
+}
+
+.grill-burguer{
+    width: 0px;
+}
+
+.titulo-social{
+    padding: 5%;
+    
+    h3{
+        text-align: center;
+        font-size: 6.5vw;
+        font-weight: 500;
+        color: #868686;
+        
+
+        a{
+            color: #700033;
+        }
+    }
+
+    p{
+        color: #929292;
+        text-align: center;
+        padding: 5%;
+    }
+}
+
+.cont-social-png{
+    img{
+        width: 0px;
+    }
+}
+
+.img-social2{
+    width: 0px;
+}
+
+.img-social3{
+    width: 0px;
+}
+
+.cont-img-social{
+    display: flex;
+    justify-content: center;
+
+    .invisible-mobile{
+        height: 0px;
+        width: 0px;
+    }
+
+    .visible-mobile{
+        height: 100%;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        
+        img{
+            width: 100%;
+        }
+    }
+}
+
+// FOOTER
+
+footer{
+    background-color: #700033;
+    width: 100%;
+}
+
+svg{
+    background-color: #fff;
+}
+
+.cont-listas{
+    display: flex;
+    justify-content: space-between;
+    div{
+
+        span{
+            font-size: 16px;
+            color: #fff;
+        }
+
+        p{
+            font-size: 10px;
+            color: #e2e2e2;
+        }
+
+        ul{
+            li{
+                font-size: 12px;
+                list-style: none;
+
+                a{
+                    text-decoration: none;
+                    color: #929292;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .cont-img-footer{
+        padding-left: 2%;
+    }
+
+    .company{
+        padding-right: 2%;
+    }
+}
+
+.copyright{
+    p{
+        text-align: center;
+        padding: 5% 0% 10% 0%;
+        color: #fff;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
