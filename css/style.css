@@ -217,8 +217,134 @@
     font-size: 0px;
     padding: 0px;
   }
+  .Imgmenu {
+    width: 0px;
+    visibility: hidden;
+  }
   .Imgmenu img {
     width: 0px;
+  }
+  .cont-mitad-burguer img {
+    width: 0px;
+  }
+  .seccion-hamburguesas-especiales {
+    width: 0px;
+    height: 0px;
+  }
+  .hamburguesa-especial {
+    visibility: hidden;
+    width: 0px;
+  }
+  .hamburguesa-especial h4 {
+    font-size: 0px;
+  }
+  .hamburguesa-especial button {
+    padding: 0px;
+    font-size: 0px;
+  }
+  .chicha-burguer {
+    width: 0px;
+  }
+  .friend-burguer {
+    width: 0px;
+  }
+  .grill-burguer {
+    width: 0px;
+  }
+  .titulo-social {
+    padding: 5%;
+  }
+  .titulo-social h3 {
+    text-align: center;
+    font-size: 6.5vw;
+    font-weight: 500;
+    color: #868686;
+  }
+  .titulo-social h3 a {
+    color: #700033;
+  }
+  .titulo-social p {
+    color: #929292;
+    text-align: center;
+    padding: 5%;
+  }
+  .cont-social-png img {
+    width: 0px;
+  }
+  .img-social2 {
+    width: 0px;
+  }
+  .img-social3 {
+    width: 0px;
+  }
+  .cont-img-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .cont-img-social .invisible-mobile {
+    height: 0px;
+    width: 0px;
+  }
+  .cont-img-social .visible-mobile {
+    height: 100%;
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .cont-img-social .visible-mobile img {
+    width: 100%;
+  }
+  footer {
+    background-color: #700033;
+    width: 100%;
+  }
+  svg {
+    background-color: #fff;
+  }
+  .cont-listas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .cont-listas div span {
+    font-size: 16px;
+    color: #fff;
+  }
+  .cont-listas div p {
+    font-size: 10px;
+    color: #e2e2e2;
+  }
+  .cont-listas div ul li {
+    font-size: 12px;
+    list-style: none;
+  }
+  .cont-listas div ul li a {
+    text-decoration: none;
+    color: #929292;
+    font-weight: 400;
+  }
+  .cont-listas .cont-img-footer {
+    padding-left: 2%;
+  }
+  .cont-listas .company {
+    padding-right: 2%;
+  }
+  .copyright p {
+    text-align: center;
+    padding: 5% 0% 10% 0%;
+    color: #fff;
+    font-size: 12px;
   }
 }
 
