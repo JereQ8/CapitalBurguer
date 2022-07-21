@@ -1,0 +1,22 @@
+#suPedido{
+    font-family: sans-serif;
+}
+
+.pedido{
+    font-family: sans-serif;
+    border: 2px solid ;
+    border-radius: 8px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#ordenar{
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #700033;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
