@@ -14,6 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="icon" href="assets/img/burger-logo-.png">
+    <link rel="stylesheet" href="js/tingle/tingle.css">
     <title>Capital Burguer</title>
 </head>
 
@@ -34,7 +35,7 @@
                     </div>
                     <div class="cont-numero">
                         <p>+351-329-1417</p>
-                        <img src="assets/img/cart.png" alt="">
+                        <img id="carrito" src="assets/img/cart.png" alt="">
                     </div>
                 </nav>
             </header>
@@ -110,55 +111,55 @@
             <div class="card">
                 <img src="https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-burger-king-argentina//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/Hamburguesa-con-Queso.png" alt="">
                 <h4>Burger Thor</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>Pan de papa, 1 Medallon de Vaca, Cheddar, Cebolla caramelizada</p>
                 <div>
                     <img src="assets/img/cart.png" alt="">
-                    <button class="agregarAlCarrito0" >Agregar al carro</button>
+                    <button class="agregarAlCarrito0" >Comprar!</button>
                 </div>
             </div>
             <div class="card">
                 <img src="https://www.revistaaral.com/images/showid2/4843436?w=900&mh=700" alt="">
                 <h4>Burger Legend</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>1 Medallon de Vaca, Cheddar, Nachos, Lechuga, tomate, Barbacoa.</p>
                 <div>
                     <img src="assets/img/cart.png" alt="">
-                    <button class="agregarAlCarrito1" >Agregar al carro</button>
+                    <button class="agregarAlCarrito1" >Comprar!</button>
                 </div>
             </div>
             <div class="card">
                 <img src="https://betos.com.ar/wp-content/uploads/2019/12/hambur-doble.png" alt="">
                 <h4>Burger Viking</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>2 Medallon de Vaca, 2 fetas de Queso, Tomate, lechuga.</p>
                 <div>
                     <img src="assets/img/cart.png" alt="">
-                    <button class="agregarAlCarrito2" >Agregar al carro</button>
+                    <button class="agregarAlCarrito2" >Comprar!</button>
                 </div>
             </div>
             <div class="card card-desaparecida">
                 <img src="https://s3.eu-central-1.amazonaws.com/www.burgerking.com.mx/wp-content/uploads/sites/3/2021/02/24095706/1200x800_03_WhopperConQueso-1-1.png" alt="">
                 <h4>Burger Bacon</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>1 Medallon de Vaca, Cheddar, Aretes de Cebolla, Ketchup, Tomate, Lechuga.</p>
                 <div>
                     <img src="assets/img/cart.png" alt="">
-                    <button class="agregarAlCarrito3" >Agregar al carro</button>
+                    <button class="agregarAlCarrito3" >Comprar!</button>
                 </div>
             </div>
             <div class="card card-desaparecida">
                 <img src="https://www.burgertowers.com/imagenes/Hamburguesa_Gigante_Towers_5pisos.png" alt="">
                 <h4>Burger Fat</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>Pan de papa, 5 Medallones de Vaca, Cheddar, Cebolla caramelizada, Huevo frito, Tocino.</p>
                 <div>
                     <img src="assets/img/cart.png" alt="">
-                    <button class="agregarAlCarrito4" >Agregar al carro</button>
+                    <button class="agregarAlCarrito4" >Comprar!</button>
                 </div>
             </div>
             <div class="card card-desaparecida">
                 <img src="https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-burger-king-argentina//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/Stacker-Cuadruple.png" alt="">
                 <h4>Burger BEG</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>4 Medallones de Vaca, Cheddar, Jamon cocido.</p>
                 <div>
                     <img src="assets/img/cart.png" alt="">
-                    <button class="agregarAlCarrito5" >Agregar al carro</button>
+                    <button class="agregarAlCarrito5" >Comprar!</button>
                 </div>
             </div>
         </div>
@@ -342,8 +343,9 @@
         <p>Copyright Capital Burguers</p>
     </div>
 
-    <!-- <script src="js/script.js"></script> -->
-    <!-- <script src="js/carrito.js"></script> -->
+    
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="js/carritoModal.js"></script>
     <script src="js/2doScript.js"></script>
 </footer>
 </body>

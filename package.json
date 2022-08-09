@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "sweetalert2": "^11.4.26",
+    "tingle.js": "^0.16.0"
+  }
+}
