@@ -23,4 +23,5 @@
 
 .card{
     background-color: #fda;
+    min-width: 80%;
 }

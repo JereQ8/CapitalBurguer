@@ -141,11 +141,24 @@
     font-size: 9vw;
     color: #929292;
   }
+
+  .cont-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 80%;
+  }
+
   .card {
     margin-bottom: 5%;
         border-radius: 10px;
         background: #fda;
-        
+        min-width: 80%;
         width: 30%;
         display: flex;
         flex-direction: column;
@@ -542,6 +555,7 @@ button {
 
  
   .card {
+    min-width: 80%;
     margin-top: 2%;
     margin-bottom: 5%;
     margin-left: 2%;
@@ -975,6 +989,14 @@ button {
 .contenedor-footer td{
   width: 20%;
 }
+
+
+@media screen and (max-width: 576px) {
+  .card{
+    min-width: 80%;
+  }
+}
+
 
 
 
