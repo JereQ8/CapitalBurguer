@@ -142,24 +142,16 @@
     color: #929292;
   }
   .card {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border-radius: 8px;
-    margin: 10% 10%;
-    -webkit-box-shadow: 0px 0px 10px 0px;
-            box-shadow: 0px 0px 10px 0px;
-    background-color: #f7f7f7;
+    margin-bottom: 5%;
+        border-radius: 10px;
+        background: #fda;
+        
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0px 30px 0px;
   }
   .card p {
     text-align: center;
@@ -525,6 +517,7 @@ button {
     background-color: #f0f0f06c;
   }
   .titulo-our {
+    margin-top: 2%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -546,15 +539,17 @@ button {
     color: #616161;
     padding-bottom: 80px;
   }
+
+ 
   .card {
+    margin-top: 2%;
     margin-bottom: 5%;
+    margin-left: 2%;
     border-radius: 10px;
-    background: #fff;
-    -webkit-box-shadow: 20px 20px 60px #bebebe,
- -20px -20px 60px #ffffff;
-            box-shadow: 20px 20px 60px #bebebe,
- -20px -20px 60px #ffffff;
-    width: 30%;
+    background: #fda;
+    
+            
+    width: 20%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -926,6 +921,61 @@ button {
 .img-card{
   width: 60%;
 }
+
+#contenedorHamburguesas{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.body-OrderNow{
+  background-color: #5b1d39;
+}
+
+.carrito{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.cont-datos-carrito{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.veintePorCiento{
+  width: 20%;
+}
+
+.cont-b {
+  display: flex
+
+}
+
+.cont-b div{
+  width: 20%;
+}
+
+.cont-carritoYNombreDeDatos{
+  padding: 1%;
+  background-color: #fda;
+}
+
+.contenedor-footer{
+  display: flex;
+  margin-top: 1%;
+}
+
+.contenedor-footer th{
+  width: 40%;
+}
+
+.contenedor-footer td{
+  width: 20%;
+}
+
 
 
 /*# sourceMappingURL=style.css.map */
