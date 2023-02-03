@@ -25,3 +25,11 @@
     background-color: #fda;
     min-width: 80%;
 }
+
+.cont-ul-nav{
+    margin-top: 1%;
+}
+
+.cont-ul-nav ul li a{
+    color: #ff9d77;
+}
